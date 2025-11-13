@@ -5,519 +5,389 @@
 **Last Updated:** 2025-11-13  
 **Total Repositories:** 20  
 **Categories:** 9  
-**READMEs Analysed:** 20 (100%)
+**READMEs Analysed:** 19 (95%)
 
 ## Table of Contents
 
-- [AI & Machine Learning](#ai--machine-learning) (6)
-- [DevOps & CI/CD](#devops--cicd) (2)
-- [Developer Tools](#developer-tools) (1)
-- [Frontend Development](#frontend-development) (2)
-- [Monitoring & Observability](#monitoring--observability) (2)
-- [Networking](#networking) (1)
-- [Platform Engineering](#platform-engineering) (3)
-- [Testing & QA](#testing--qa) (2)
-- [Web Development](#web-development) (1)
+- [AI & Machine Learning](#ai--machine-learning) (7)
+- [Automation & Scripting](#automation--scripting) (1)
+- [Cloud & Infrastructure](#cloud--infrastructure) (4)
+- [Consolidated Analysis](#consolidated-analysis) (1)
+- [Databases & Storage](#databases--storage) (1)
+- [Developer Tools](#developer-tools) (2)
+- [Monitoring & Observability](#monitoring--observability) (1)
+- [Security & Compliance](#security--compliance) (1)
+- [Web Development](#web-development) (2)
 
 
 ---
 
 ## AI & Machine Learning
 
-### [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
+### [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb)
 
-An Open Source Machine Learning Framework for Everyone
+Federated query engine for AI - The only MCP Server you'll ever need
 
-> <div align="center">
-  <img src="https://www.tensorflow.org/images/tf_logo_horizontal.png">
-</div>
 
-[](https://badge.fury.io/py/tensorflow)
-[](https://badge.fury.io/py/tensorflow)
-[](https://doi.org/10.5281/zenodo.4724125)
-[](https://bestpractices.coreinfrastructure.org/projects/1486)
-[](https://sec...
-
-**Details:**
-- Language: C++
-- Stars: ⭐ 192425
-- Forks: 🔱 74990
-- Topics: `deep-learning`, `deep-neural-networks`, `distributed`, `machine-learning`, `ml`, `neural-network`, `python`, `tensorflow`
-- Subcategory: ML models, AI tools, training
-- 🤖 AI Reasoning: *The description, topics, and README clearly state that TensorFlow is an end-to-end open source platform for machine learning, including deep learning and neural networks.*
-- Homepage: [https://tensorflow.org](https://tensorflow.org)
-
-### [ollama/ollama](https://github.com/ollama/ollama)
-
-Get up and running with OpenAI gpt-oss, DeepSeek-R1, Gemma 3 and other models.
-
-> <div align="center">
-  <a href="https://ollama.com">
-    <img alt="ollama" width="240" src="https://github.com/ollama/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7">
-  </a>
-</div>
-
-Ollama
-
-Get up and running with large language models.
-
-macOS
-
-Download
-
-Windows
-
-Download
-
-Linux
-
-Manual ...
-
-**Details:**
-- Language: Go
-- Stars: ⭐ 155892
-- Forks: 🔱 13618
-- Topics: `deepseek`, `gemma`, `gemma3`, `gemma3n`, `go`, `golang`, `gpt-oss`, `llama`, `llama2`, `llama3`, `llava`, `llm`, `llms`, `mistral`, `ollama`, `phi4`, `qwen`
-- Subcategory: LLM Runtime/Platform
-- 🤖 AI Reasoning: *The repository provides a platform and tools to easily download, run, and manage various large language models (LLMs) like Gemma, Llama, and Mistral, as indicated by the description, topics, and README summary detailing installation and model library.*
-- Homepage: [https://ollama.com](https://ollama.com)
-
-### [langgenius/dify](https://github.com/langgenius/dify)
-
-Production-ready platform for agentic workflow development.
-
-> <p align="center">
-  📌 <a href="https://dify.ai/blog/introducing-dify-workflow-file-upload-a-demo-on-ai-podcast">Introducing Dify Workflow File Upload: Recreate Google NotebookLM Podcast</a>
-</p>
-
-<p align="center">
-  <a href="https://cloud.dify.ai">Dify Cloud</a> ·
-  <a href="https://docs.dify.ai/...
-
-**Details:**
-- Language: TypeScript
-- Stars: ⭐ 118824
-- Forks: 🔱 18373
-- Topics: `agent`, `agentic-ai`, `agentic-framework`, `agentic-workflow`, `ai`, `automation`, `gemini`, `genai`, `gpt`, `gpt-4`, `llm`, `low-code`, `mcp`, `nextjs`, `no-code`, `openai`, `orchestration`, `python`, `rag`, `workflow`
-- Subcategory: AI Tools & Platforms
-- 🤖 AI Reasoning: *The repository is a production-ready platform for developing agentic workflows, clearly focused on AI, LLMs, and GenAI. It offers a low-code/no-code approach for building AI applications.*
-- Homepage: [https://dify.ai](https://dify.ai)
-
-### [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
-
-An open-source AI agent that brings the power of Gemini directly into your terminal.
-
-> Gemini CLI
-
-[](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml)
-[](https://github.com/google-gemini/gemini-cli/actions/workflows/e2e.yml)
-[](https://www.npmjs.com/package/@google/gemini-cli)
-[](https://github.com/google-gemini/gemini-cli/blob/main/LICENSE)
-
-Gemini CLI is an open...
-
-**Details:**
-- Language: TypeScript
-- Stars: ⭐ 82376
-- Forks: 🔱 9235
-- Topics: `gemini`, `gemini-api`
-- Subcategory: AI Tools
-- 🤖 AI Reasoning: *The repository describes itself as an "open-source AI agent that brings the power of Gemini directly into your terminal," providing "lightweight access to Gemini." The topics "gemini" and "gemini-api" further support its function as an AI tool for interacting with the Gemini model.*
-- Homepage: [https://geminicli.com](https://geminicli.com)
-
-### [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat)
-
-Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
-
-> <p align="center">
-  <a href="https://librechat.ai">
-    <img src="client/public/assets/logo.svg" height="256">
-  </a>
-  <h1 align="center">
-    <a href="https://librechat.ai">LibreChat</a>
-  </h1>
-</p>
-
-<p align="center">
-  <a href="https://discord.librechat.ai"> 
-    <img
-      src="https://img.sh...
-
-**Details:**
-- Language: TypeScript
-- Stars: ⭐ 31616
-- Forks: 🔱 6161
-- Topics: `ai`, `anthropic`, `artifacts`, `aws`, `azure`, `chatgpt`, `chatgpt-clone`, `claude`, `clone`, `deepseek`, `gemini`, `google`, `gpt-5`, `librechat`, `mcp`, `o1`, `openai`, `responses-api`, `vision`, `webui`
-- Subcategory: Conversational AI Platform
-- 🤖 AI Reasoning: *This repository is an "Enhanced ChatGPT Clone" offering a web UI and integration with multiple AI models (OpenAI, Anthropic, Gemini, etc.), making it a comprehensive platform for conversational AI applications.*
-- Homepage: [https://librechat.ai/](https://librechat.ai/)
-
-### [continuedev/continue](https://github.com/continuedev/continue)
-
-⏩ Ship faster with Continuous AI. Open-source CLI that can be used in TUI mode as a coding agent or Headless mode to run background agents
-
-> <div align="center">
-
-</div>
-
-<h1 align="center">Continue</h1>
-
-<div align="center">
-
-<a target="_blank" href="https://opensource.org/licenses/Apache-2.0" style="background:none">
-    <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" style="height: 22px;" />
-</a>
-<a target="_blank"...
-
-**Details:**
-- Language: TypeScript
-- Stars: ⭐ 29814
-- Forks: 🔱 3771
-- Topics: `agent`, `ai`, `background-agents`, `claude`, `cli`, `continuous-ai`, `developer-tools`, `gemini`, `gpt`, `hacktoberfest`, `jetbrains`, `llm`, `open-source`, `qwen`, `vscode`, `workflows`
-- Subcategory: AI tools, coding agents
-- 🤖 AI Reasoning: *The repository describes itself as a "Continuous AI" CLI that acts as a "coding agent" or runs "background agents". Topics like "agent", "ai", "llm", "gemini", "gpt" reinforce its core function as an AI tool for developers.*
-- Homepage: [https://docs.continue.dev/](https://docs.continue.dev/)
-
----
-
-## DevOps & CI/CD
-
-### [ansible/ansible](https://github.com/ansible/ansible)
-
-Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.
-
-> [](https://pypi.org/project/ansible-core)
-[](https://docs.ansible.com/ansible/latest/)
-[](https://docs.ansible.com/ansible/devel/community/communication.html)
-[](https://dev.azure.com/ansible/ansible/_build/latest?definitionId=20&branchName=devel)
-[](https://docs.ansible.com/ansible/devel/community/...
+> 📄 Website · Docs · Contact us for a Demo · Community Slack MindsDB enables humans, AI, agents, and applications to get highly accurate answers across large scale data sources. And yes, you can customize it to your heart's content.
 
 **Details:**
 - Language: Python
-- Stars: ⭐ 66998
-- Forks: 🔱 24128
-- Topics: `ansible`, `python`
-- Subcategory: deployment automation
-- 🤖 AI Reasoning: *Ansible is explicitly described as an "IT automation platform" for "configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration", directly aligning with DevOps practices and deployment automation.*
-- Homepage: [https://www.ansible.com/](https://www.ansible.com/)
+- Stars: ⭐ 37289
+- Forks: 🔱 5980
+- Topics: `agents`, `agi`, `ai`, `analytics`, `artificial-inteligence`, `business-intelligence`, `databases`, `hacktoberfest`, `llms`, `mcp`, `rag`
+- Subcategory: AI Query Engines & Data Integration
+- 🤖 AI Reasoning: *MindsDB is primarily an AI query engine that integrates with various large-scale data sources for AI applications, including LLMs and agents, enabling accurate answers across diverse data.*
+- Homepage: [https://mindsdb.com](https://mindsdb.com)
 
-### [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins)
+### [sgl-project/sglang](https://github.com/sgl-project/sglang)
 
-Jenkins automation server
+SGLang is a fast serving framework for large language models and vision language models.
 
-> <a href="https://jenkins.io">
-    <img width="400" src="https://www.jenkins.io/images/jenkins-logo-title-dark.svg" alt="Jenkins logo"> 
-</a>
 
-About
-
-[](https://www.jenkins.io/changelog)
-[](https://www.jenkins.io/changelog-stable)
-[](https://hub.docker.com/r/jenkins/jenkins/)
-[](https://bestpractices...
+> 📄 [](https://pypi.org/project/sglang) [](https://github.com/sgl-project/sglang/tree/main/LICENSE) [](https://github.com/sgl-project/sglang/issues) [](https://github.com/sgl-project/sglang/issues) [](https://deepwiki.com/sgl-project/sglang) **Blog** **D...
 
 **Details:**
-- Language: Java
-- Stars: ⭐ 24654
-- Forks: 🔱 9184
-- Topics: `cicd`, `continuous-delivery`, `continuous-deployment`, `continuous-integration`, `devops`, `groovy`, `hacktoberfest`, `java`, `jenkins`, `pipelines-as-code`
-- Subcategory: deployment automation
-- 🤖 AI Reasoning: *Jenkins is explicitly described as an open-source automation server used to automate development workflows, with topics like CI/CD, continuous-delivery, continuous-deployment, continuous-integration, and devops. This fits perfectly into the "DevOps & CI/CD" category and the subcategory "deployment automation" given its role in automating deployments and continuous processes.*
-- Homepage: [https://www.jenkins.io](https://www.jenkins.io)
+- Language: Python
+- Stars: ⭐ 20118
+- Forks: 🔱 3369
+- Topics: `blackwell`, `cuda`, `deepseek`, `deepseek-r1`, `deepseek-v3`, `deepseek-v3-2`, `gpt-oss`, `inference`, `kimi`, `llama`, `llama3`, `llava`, `llm`, `llm-serving`, `moe`, `openai`, `pytorch`, `qwen3`, `transformer`, `vlm`
+- Subcategory: LLM Serving Framework
+- 🤖 AI Reasoning: *SGLang is explicitly described as a fast serving framework for large language models and vision language models, with topics like `llm-serving`, `inference`, `llama`, and `openai`. This places it squarely in the AI & Machine Learning category, with a specific subcategory for LLM serving frameworks.*
+- Homepage: [https://docs.sglang.ai/](https://docs.sglang.ai/)
+
+### [langfuse/langfuse](https://github.com/langfuse/langfuse)
+
+🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 
+
+
+> 📄 Langfuse Is Doubling Down On Open Source Langfuse Cloud · Self Host · Demo Docs · Report Bug · Feature Request · Changelog · Roadmap · Langfuse uses GitHub Discussions for Support and Feature Requests.
+
+**Details:**
+- Language: TypeScript
+- Stars: ⭐ 18259
+- Forks: 🔱 1762
+- Topics: `analytics`, `autogen`, `evaluation`, `langchain`, `large-language-models`, `llama-index`, `llm`, `llm-evaluation`, `llm-observability`, `llmops`, `monitoring`, `observability`, `open-source`, `openai`, `playground`, `prompt-engineering`, `prompt-management`, `self-hosted`, `ycombinator`
+- Subcategory: LLM Observability & Engineering
+- 🤖 AI Reasoning: *The description and topics clearly indicate a focus on Large Language Models (LLMs), with specific mentions of "LLM Observability, metrics, evals, prompt management". The README reinforces the "Open source LLM engineering platform".*
+- Homepage: [https://langfuse.com/docs](https://langfuse.com/docs)
+
+### [toon-format/toon](https://github.com/toon-format/toon)
+
+🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK.
+
+
+> 📄 Token-Oriented Object Notation (TOON) [](https://github.com/toon-format/toon/actions) [](https://www.npmjs.com/package/@toon-format/toon) [](https://github.com/toon-format/spec) [](https://www.npmjs.com/package/@toon-format/toon) [](./LICENSE) **Toke...
+
+**Details:**
+- Language: TypeScript
+- Stars: ⭐ 14137
+- Forks: 🔱 551
+- Topics: `data-format`, `llm`, `serialization`, `tokenization`
+- Subcategory: LLM Tools/Data Formats
+- 🤖 AI Reasoning: *The repository provides a serialization format specifically designed for passing structured data to Large Language Models (LLMs), as explicitly stated in both the README summary and description, and supported by "llm" and "data-format" topics.*
+- Homepage: [https://toonformat.dev](https://toonformat.dev)
+
+### [agent0ai/agent-zero](https://github.com/agent0ai/agent-zero)
+
+Agent Zero AI framework
+
+
+> 📄 [](https://agent-zero.ai) [](https://github.com/sponsors/agent0ai) [](https://x.com/Agent0ai) [](https://discord.gg/B8KZKNsPpj) [](https://www.youtube.com/@AgentZeroFW) [](https://www.linkedin.com/in/jan-tomasek/) [](https://warpcast.com/agent-zero)...
+
+**Details:**
+- Language: Python
+- Stars: ⭐ 12250
+- Forks: 🔱 2401
+- Topics: `agent`, `ai`, `assistant`, `autonomous`, `linux`, `zero`
+- Subcategory: AI Frameworks
+- 🤖 AI Reasoning: *The description and topics clearly state it is an "AI framework" for "agents" and "autonomous" systems. The README summary also points to documentation for development and usage of this framework.*
+- Homepage: [https://agent-zero.ai](https://agent-zero.ai)
+
+### [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)
+
+Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI
+
+
+> 📄 Generative AI on Google Cloud > **Gemini 2.5 Pro and Gemini 2.5 Flash have been released!** > > Here are the latest notebooks and demos using the new models: > > - Intro to Gemini 2.5 Pro > - Intro to Gemini 2.5 Flash This repository contains noteboo...
+
+**Details:**
+- Language: Jupyter Notebook
+- Stars: ⭐ 12032
+- Forks: 🔱 3505
+- Topics: `agents`, `gcp`, `gemini`, `gemini-api`, `gen-ai`, `generative-ai`, `google`, `google-cloud`, `google-gemini`, `langchain`, `large-language-models`, `llm`, `vertex-ai`, `vertex-ai-gemini-api`, `vertexai`
+- Subcategory: LLMs & Generative AI
+- 🤖 AI Reasoning: *The repository provides sample code and notebooks specifically for Generative AI on Google Cloud, focusing on Gemini and Vertex AI. The README highlights notebooks and demos using new Gemini models, aligning perfectly with LLMs and generative AI tools on a cloud platform.*
+- Homepage: [https://cloud.google.com/vertex-ai/docs/generative-ai/learn/overview](https://cloud.google.com/vertex-ai/docs/generative-ai/learn/overview)
+
+### [redis/redis-vl-python](https://github.com/redis/redis-vl-python)
+
+Redis Vector Library (RedisVL) -- the AI-native Python client for Redis.
+
+
+> 📄 Redis Vector Library The AI-native Redis Python client [](https://opensource.org/licenses/MIT) [](https://pypi.org/project/redisvl/) [](https://github.com/redis/redis-vl-python/stargazers) [](https://github.com/psf/black) **Documentation** • **Recipe...
+
+**Details:**
+- Language: Python
+- Stars: ⭐ 341
+- Forks: 🔱 61
+- Topics: `embedding`, `large-language-models`, `llm`, `llmcache`, `openai`, `python`, `redis`, `retrieval-augmented-generation`, `semantic-cache`, `vector-database`, `vector-search`
+- Subcategory: AI Tools
+- 🤖 AI Reasoning: *The repository provides a Python client library for building AI applications with Redis, focusing on vector search, LLMs, and embeddings. This clearly falls under AI & Machine Learning, and more specifically, AI Tools as it's a library to facilitate AI development.*
+- Homepage: [https://docs.redisvl.com](https://docs.redisvl.com)
+
+---
+
+## Automation & Scripting
+
+### [make-all/tuya-local](https://github.com/make-all/tuya-local)
+
+Local support for Tuya devices in Home Assistant
+
+
+> 📄 Home Assistant Tuya Local component Please report any issues and feel free to raise pull requests. Many others have contributed their help already. [](https://www.buymeacoffee.com/jasonrumney) This is a Home Assistant integration to support devices r...
+
+**Details:**
+- Language: Python
+- Stars: ⭐ 2294
+- Forks: 🔱 855
+- Topics: `climate`, `dehumidifiers`, `fans`, `heaters`, `home-assistant`, `humidifiers`, `lights`, `pool-heaters`, `switches`, `tuya`
+- Subcategory: Home Automation / Smart Home Integration
+- 🤖 AI Reasoning: *The README and description clearly indicate that this is a Home Assistant integration for Tuya devices, enabling local control without the cloud. This aligns with home automation, which is a specific type of automation and scripting for smart home devices.*
+
+---
+
+## Cloud & Infrastructure
+
+### [localstack/localstack](https://github.com/localstack/localstack)
+
+💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline
+
+
+> 📄 :zap: We are thrilled to announce the release of LocalStack 4.9 :zap: LocalStack is a cloud software development framework to develop and test your AWS applications locally. Overview • Install • Quickstart • Run • Usage • Releases • Contributing 📖 D...
+
+**Details:**
+- Language: Python
+- Stars: ⭐ 62952
+- Forks: 🔱 4407
+- Topics: `aws`, `cloud`, `continuous-integration`, `developer-tools`, `localstack`, `python`, `testing`
+- Subcategory: AWS Cloud Emulation
+- 🤖 AI Reasoning: *LocalStack provides a fully functional local AWS cloud stack for developing and testing cloud and serverless applications offline. Its core purpose is to emulate AWS services, directly aligning with cloud infrastructure.*
+- Homepage: [https://localstack.cloud](https://localstack.cloud)
+
+### [aws/aws-cdk](https://github.com/aws/aws-cdk)
+
+The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code
+
+
+> 📄 AWS Cloud Development Kit (AWS CDK) [](https://gitpod.io/#https://github.com/aws/aws-cdk) [](https://badge.fury.io/js/aws-cdk) [](https://badge.fury.io/py/aws-cdk-lib) [](https://badge.fury.io/nu/Amazon.CDK.Lib) [](https://maven-badges.herokuapp.com/...
+
+**Details:**
+- Language: TypeScript
+- Stars: ⭐ 12524
+- Forks: 🔱 4322
+- Topics: `aws`, `cloud-infrastructure`, `hacktoberfest`, `infrastructure-as-code`, `typescript`
+- Subcategory: Infrastructure as Code (IaC)
+- 🤖 AI Reasoning: *The repository explicitly describes itself as the "AWS Cloud Development Kit" for "defining cloud infrastructure in code", supported by topics like "aws", "cloud-infrastructure", and "infrastructure-as-code".*
+- Homepage: [https://aws.amazon.com/cdk](https://aws.amazon.com/cdk)
+
+### [boto/boto3](https://github.com/boto/boto3)
+
+Boto3, an AWS SDK for Python
+
+
+> 📄 =============================== Boto3 - The AWS SDK for Python =============================== Version Python License Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python, which allows Python developers to write software t...
+
+**Details:**
+- Language: Python
+- Stars: ⭐ 9591
+- Forks: 🔱 1933
+- Topics: `aws`, `aws-sdk`, `cloud`, `cloud-management`, `python`
+- Subcategory: AWS SDK / Cloud Management
+- 🤖 AI Reasoning: *The README and description clearly state that Boto3 is the AWS SDK for Python, enabling interaction with AWS services like S3 and EC2. This directly aligns with managing and interacting with cloud infrastructure.*
+- Homepage: [https://aws.amazon.com/sdk-for-python/](https://aws.amazon.com/sdk-for-python/)
+
+### [openstack/openstack](https://github.com/openstack/openstack)
+
+Repository tracking all OpenStack repositories as submodules. Mirror of code maintained at opendev.org.
+
+
+> 📄 OpenStack ========= OpenStack is a collection of interoperable components that can be deployed to provide computing, networking and storage resources. Those infrastructure resources can then be accessed by end users through programmable APIs.
+
+**Details:**
+- Language: Python
+- Stars: ⭐ 5735
+- Forks: 🔱 1626
+- Subcategory: Infrastructure as a Service (IaaS)
+- 🤖 AI Reasoning: *The README states OpenStack provides computing, networking, and storage resources, indicating its role in managing infrastructure. This aligns with Infrastructure as a Service.*
+- Homepage: [https://opendev.org/openstack/openstack](https://opendev.org/openstack/openstack)
+
+---
+
+## Consolidated Analysis
+
+### [Multiple Repositories](undefined)
+
+**Details:**
+- Language: N/A
+- Stars: ⭐ 0
+- Subcategory: Repository Categorization
+- 🤖 AI Reasoning: *[
+  {
+    "full_name": "odoo/odoo",
+    "category": "Web Development",
+    "subcategory": "Business Application Suite",
+    "reasoning": "Odoo is a comprehensive suite of web-based open-source business applications, including ERP, CRM, and accounting. Its primary function is providing full-stack business solutions accessed via a web interface, aligning with web development that creates complete applications."
+  },
+  {
+    "full_name": "freeCodeCamp/freeCodeCamp",
+    "category": "Other",
+    "subcategory": "Education Platform",
+    "reasoning": "freeCodeCamp provides an open-source codebase and curriculum for learning programming, mathematics, and computer science. Its core purpose is to offer an educational platform for users to learn coding for free, which does not fit standard development or infrastructure categories."
+  },
+  {
+    "full_name": "open-webui/open-webui",
+    "category": "AI & Machine Learning",
+    "subcategory": "LLM Interface / AI Platform",
+    "reasoning": "Open WebUI is a self-hosted, user-friendly AI platform designed to interact with Large Language Models (LLMs) from various runners like Ollama and OpenAI-compatible APIs, including RAG capabilities. This clearly positions it within the AI and Machine Learning domain as an AI tool/interface."
+  },
+  {
+    "full_name": "wled/WLED",
+    "category": "Other",
+    "subcategory": "Embedded Systems / IoT Device Control",
+    "reasoning": "WLED is an ESP32 and ESP8266 webserver implementation used to control digital RGB LEDs. It's an embedded software solution designed for specific hardware (microcontrollers) to manage and automate lighting, which falls under embedded systems or IoT device control."
+  },
+  {
+    "full_name": "koush/scrypted",
+    "category": "Automation & Scripting",
+    "subcategory": "Home Video Automation",
+    "reasoning": "Scrypted is a high-performance home video integration and automation platform that includes NVR functionality and smart detections, providing instant streaming to smart home systems like HomeKit and Google Home. Its focus on automating video workflows and integrations aligns with the Automation & Scripting category."
+  }
+]*
+
+---
+
+## Databases & Storage
+
+### [rclone/rclone](https://github.com/rclone/rclone)
+
+"rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files
+
+**Details:**
+- Language: Go
+- Stars: ⭐ 53500
+- Forks: 🔱 4766
+- Topics: `azure-blob`, `azure-blob-storage`, `azure-files`, `backblaze-b2`, `cloud-storage`, `dropbox`, `encryption`, `ftp`, `fuse-filesystem`, `go`, `golang`, `google-cloud-storage`, `google-drive`, `onedrive`, `openstack-swift`, `rclone`, `s3`, `sftp`, `sync`, `webdav`
+- Subcategory: Storage Solutions
+- 🤖 AI Reasoning: *Rclone is described as "rsync for cloud storage" and its topics include numerous cloud storage providers like Google Drive, S3, Dropbox, etc., along with "cloud-storage" and "sync". The README confirms its purpose related to managing and syncing data across various storage solutions.*
+- Homepage: [https://rclone.org](https://rclone.org)
 
 ---
 
 ## Developer Tools
 
-### [triton-lang/triton](https://github.com/triton-lang/triton)
+### [sharkdp/bat](https://github.com/sharkdp/bat)
 
-Development repository for the Triton language and compiler
+A cat(1) clone with wings.
 
-> | **** | **** |
-|-------------------- | -------------------- |
-| [](https://triton-lang.org/) | [](https://github.com/triton-lang/triton/actions/workflows/wheels.yml) |
 
-Triton Conference 2025
-
-Registration
-
-The 3rd Triton conference is scheduled to take place on October 21, 2025. Click here to regi...
+> 📄 A cat(1) clone with syntax highlighting and Git integration. Key Features • How To Use • Installation • Customization • Project goals, alternatives [English] [中文] [日本語] [한국어] [Русский] Sponsors A special *thank you* goes to our biggest sponsors: Warp...
 
 **Details:**
-- Language: MLIR
-- Stars: ⭐ 17538
-- Forks: 🔱 2385
-- Subcategory: Compiler & Language Development
-- 🤖 AI Reasoning: *The repository is for the development of the Triton language and compiler, as stated in the description and README. It is a foundational tool for writing efficient code.*
-- Homepage: [https://triton-lang.org/](https://triton-lang.org/)
+- Language: Rust
+- Stars: ⭐ 55809
+- Forks: 🔱 1411
+- Topics: `cli`, `command-line`, `git`, `hacktoberfest`, `rust`, `syntax-highlighting`, `terminal`, `tool`
+- Subcategory: CLI Utilities
+- 🤖 AI Reasoning: *The README and description clearly state that bat is a "cat(1) clone with syntax highlighting and Git integration" and a "command-line tool". This indicates its primary purpose as a utility for developers interacting with the terminal, making "Developer Tools" the most appropriate category and "CLI Utilities" a precise subcategory.*
 
----
+### [dart-lang/sdk](https://github.com/dart-lang/sdk)
 
-## Frontend Development
+The Dart SDK, including the VM, JS and Wasm compilers, analysis, core libraries, and more.
 
-### [zauberzeug/nicegui](https://github.com/zauberzeug/nicegui)
 
-Create web-based user interfaces with Python. The nice way.
-
-> <a href="https://nicegui.io/#about">
-  <img src="https://raw.githubusercontent.com/zauberzeug/nicegui/main/screenshot.png"
-    width="200" align="right" alt="Try online!" />
-</a>
-
-NiceGUI
-
-NiceGUI is an easy-to-use, Python-based UI framework, which shows up in your web browser.
-You can create button...
+> 📄 Dart An approachable, portable, and productive language for high-quality apps on any platform Dart is: **Approachable**: Develop with a strongly typed programming language that is consistent, concise, and offers modern language features like null saf...
 
 **Details:**
-- Language: Python
-- Stars: ⭐ 14597
-- Forks: 🔱 869
-- Topics: `frontend`, `gui`, `interaction`, `interface`, `interfaces`, `python`, `robotics`, `scripting`, `toolkit`, `webapp`, `website`
-- Subcategory: UI Frameworks
-- 🤖 AI Reasoning: *The README describes NiceGUI as a "Python-based UI framework" for building "web apps" and "dashboards" that shows up in a web browser. This directly aligns with frontend development and UI frameworks.*
-- Homepage: [https://nicegui.io](https://nicegui.io)
-
-### [home-assistant/frontend](https://github.com/home-assistant/frontend)
-
-:lollipop: Frontend for Home Assistant
-
-> Home Assistant Frontend
-
-This is the repository for the official Home Assistant frontend.
-
-[](https://demo.home-assistant.io/)
-
-- View demo of Home Assistant
-- More information about Home Assistant
-- Frontend development instructions
-
-Development
-
-- Initial setup: 
-- Development: Instructions
-- Prod...
-
-**Details:**
-- Language: TypeScript
-- Stars: ⭐ 5015
-- Forks: 🔱 3404
-- Topics: `frontend`, `hacktoberfest`, `home-assistant`, `home-automation`, `lit-element`, `polymer`, `webcomponents`
-- Subcategory: Web Components
-- 🤖 AI Reasoning: *The description, topics, and README clearly indicate this is the official frontend for Home Assistant, built with web components (LitElement, Polymer). The README also focuses on frontend development instructions.*
-- Homepage: [https://demo.home-assistant.io](https://demo.home-assistant.io)
+- Language: Dart
+- Stars: ⭐ 10917
+- Forks: 🔱 1708
+- Topics: `dart`, `language`, `programming-language`, `sdk`
+- Subcategory: Programming Language SDK
+- 🤖 AI Reasoning: *This repository contains the Dart SDK, which includes the VM, compilers, and core libraries for the Dart programming language. The README describes it as an "approachable, portable, and productive language".*
+- Homepage: [https://dart.dev](https://dart.dev)
 
 ---
 
 ## Monitoring & Observability
 
-### [netdata/netdata](https://github.com/netdata/netdata)
-
-The fastest path to AI-powered full stack observability, even for lean teams.
-
-> <p align="center">
-<a href="https://www.netdata.cloud#gh-light-mode-only">
-  <img src="https://www.netdata.cloud/img/readme-images/netdata_readme_logo_light.png" alt="Netdata" width="300"/>
-</a>
-<a href="https://www.netdata.cloud#gh-dark-mode-only">
-  <img src="https://www.netdata.cloud/img/readme-i...
-
-**Details:**
-- Language: C
-- Stars: ⭐ 76694
-- Forks: 🔱 6223
-- Topics: `ai`, `alerting`, `cncf`, `data-visualization`, `database`, `devops`, `docker`, `grafana`, `influxdb`, `kubernetes`, `linux`, `machine-learning`, `mcp`, `mongodb`, `monitoring`, `mysql`, `netdata`, `observability`, `postgresql`, `prometheus`
-- Subcategory: Full Stack Observability
-- 🤖 AI Reasoning: *The description and README explicitly state "full stack observability", "X-Ray Vision for your infrastructure", and topics include "monitoring", "alerting", "data-visualization", and various infrastructure components (kubernetes, linux, docker).*
-- Homepage: [https://www.netdata.cloud](https://www.netdata.cloud)
-
 ### [grafana/pyroscope](https://github.com/grafana/pyroscope)
 
 Continuous Profiling Platform. Debug performance issues down to a single line of code
 
-> <p align="center"><img alt="Pyroscope" src="https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb" width="100%"/></p>
 
-[](https://github.com/grafana/pyroscope/actions/workflows/test.yml)
-[](https://github.com/grafana/pyroscope/actions?query=workflow%3AJS%20Tests)
-[]...
+> 📄 [](https://github.com/grafana/pyroscope/actions/workflows/test.yml) [](https://github.com/grafana/pyroscope/actions?query=workflow%3AJS%20Tests) [](https://goreportcard.com/report/github.com/grafana/pyroscope) [](LICENSE) [](https://app.fossa.com/pro...
 
 **Details:**
 - Language: Go
 - Stars: ⭐ 11019
 - Forks: 🔱 706
 - Topics: `continuous-profiling`, `developer-tools`, `devops`, `find-bottlenecks`, `golang`, `hacktoberfest`, `linux`, `monitoring`, `observability`, `performance`, `profiling`, `pyroscope`, `python`, `ruby`
-- Subcategory: Profiling
-- 🤖 AI Reasoning: *The repository describes itself as a "Continuous Profiling Platform" for debugging performance issues. This directly aligns with monitoring and observability, with profiling as the specific focus.*
+- Subcategory: Continuous Profiling
+- 🤖 AI Reasoning: *The description and topics explicitly mention "Continuous Profiling Platform", "monitoring", "observability", and "performance", which directly aligns with the Monitoring & Observability category and Continuous Profiling subcategory.*
 - Homepage: [https://grafana.com/oss/pyroscope/](https://grafana.com/oss/pyroscope/)
 
 ---
 
-## Networking
+## Security & Compliance
 
-### [firezone/firezone](https://github.com/firezone/firezone)
+### [aquasecurity/trivy](https://github.com/aquasecurity/trivy)
 
-Enterprise-ready zero-trust access platform built on WireGuard®.
-
-> <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-production-user-asset-6210df.s3.amazonaws.com/167144/280001862-73a16cec-f7fd-4983-91ed-4fb8c372b578.png">
-    <img alt="firezone logo" width="400" src="https://github-production-user-asset-6210df.s...
-
-**Details:**
-- Language: Elixir
-- Stars: ⭐ 8240
-- Forks: 🔱 385
-- Topics: `cloud`, `devsecops`, `elixir`, `elixir-lang`, `firewall`, `liveview`, `network`, `network-security`, `networking`, `phoenix`, `privacy`, `rust-lang`, `security`, `self-hosted`, `virtual-network`, `vpn`, `vpn-server`, `wireguard`, `wireguard-ui`, `wireguard-vpn`
-- Subcategory: VPN & Network Security
-- 🤖 AI Reasoning: *The repository describes itself as an "Enterprise-ready zero-trust access platform built on WireGuard®" and a "modern alternative to legacy VPNs." Its topics include "network-security," "firewall," and "vpn." These clearly indicate its primary function is related to network security and VPN services.*
-- Homepage: [https://www.firezone.dev](https://www.firezone.dev)
-
----
-
-## Platform Engineering
-
-### [runtipi/runtipi](https://github.com/runtipi/runtipi)
-
-Runtipi is a homeserver for everyone! One command setup, one click installs for your favorites self-hosted apps. ✨
-
-> Runtipi — A personal homeserver for everyone
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-[](https://github.com/runtipi/runtipi/blob/master/LICENSE)
-[](https://github.com/runtipi/runtipi/releases)
-
-[](https://cr...
-
-**Details:**
-- Language: TypeScript
-- Stars: ⭐ 9023
-- Forks: 🔱 334
-- Topics: `homeserver`, `linux`, `self-hosted`
-- Subcategory: Homeserver Platform
-- 🤖 AI Reasoning: *Runtipi is described as a "homeserver for everyone" providing "one click installs for your favorites self-hosted apps". The README summary reinforces this as a "personal homeserver for everyone". This aligns with the concept of providing a personal platform for running applications, fitting into Platform Engineering's focus on developer platforms and tools, albeit on a personal scale.*
-- Homepage: [https://www.runtipi.io/](https://www.runtipi.io/)
-
-### [syntasso/kratix](https://github.com/syntasso/kratix)
-
-Kratix is an open-source framework for building platforms
-
-> [](https://app.circleci.com/pipelines/github/syntasso/kratix?branch=main)
-[](https://opensource.org/licenses/Apache-2.0)
-[](https://goreportcard.com/report/github.com/syntasso/kratix)
-[](https://twitter.com/intent/follow?screen_name=kratixio)
-
-κρατήστε μια υπόσχεση | *kratíste mia ypóschesi* | **Kee...
+Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
 
 **Details:**
 - Language: Go
-- Stars: ⭐ 675
-- Forks: 🔱 44
-- Topics: `framework`, `kubernetes`, `platform`, `product`, `promise`
-- Subcategory: Platform Framework
-- 🤖 AI Reasoning: *Kratix is described as an open-source platform framework for building platforms, particularly with Kubernetes, aligning with platform tools and IDPs.*
-- Homepage: [https://kratix.io](https://kratix.io)
-
-### [suxess-it/kubriX](https://github.com/suxess-it/kubriX)
-
-> <p align="center">
-   <img src="https://github.com/user-attachments/assets/58af160d-92d5-4786-8f1d-f901582500ad" width="200px">
-</p>
-
-kubriX - Internal Developer Platform (IDP) Distribution
-
-kubriX is a **curated**, **opinionated**, and **highly flexible** Internal Developer Platform (IDP)
-for Kuber...
-
-**Details:**
-- Language: Shell
-- Stars: ⭐ 199
-- Forks: 🔱 37
-- Subcategory: Internal Developer Platform (IDP)
-- 🤖 AI Reasoning: *The README explicitly identifies kubriX as an "Internal Developer Platform (IDP) Distribution" for Kubernetes, which directly aligns with the "Platform Engineering" category and the subcategory of "Internal Developer Platform (IDP)".*
-- Homepage: [https://kubrix.io](https://kubrix.io)
-
----
-
-## Testing & QA
-
-### [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium)
-
-A browser automation framework and ecosystem.
-
-> <h1 align="center">
-  <br/>
-  <a href="https://selenium.dev"><img src="common/images/selenium_logo_mark_green.svg" alt="Selenium" width="100"></a>
-  <br/>
-  Selenium
-  <br/>
-</h1>
-
-<h3 align="center">Automates browsers. That's it!</h3>
-
-<p align="center">
-  <a href="#contributing">Contributing</a> •...
-
-**Details:**
-- Language: Java
-- Stars: ⭐ 33631
-- Forks: 🔱 8610
-- Topics: `dotnet`, `java`, `javascript`, `python`, `ruby`, `rust`, `selenium`, `webdriver`
-- Subcategory: Browser Automation
-- 🤖 AI Reasoning: *The repository explicitly states its purpose is to "Automate browsers" and provides "tools and libraries enabling web browser automation", which is a core aspect of testing and quality assurance, specifically E2E/UI testing.*
-- Homepage: [https://selenium.dev](https://selenium.dev)
-
-### [kubernetes/test-infra](https://github.com/kubernetes/test-infra)
-
-Test infrastructure for the Kubernetes project.
-
-> test-infra
-
-[](https://godoc.org/k8s.io/test-infra)
-[](https://testgrid.k8s.io/sig-testing-misc#continuous)
-
-This repository contains tools and configuration files for the testing and
-automation needs of the Kubernetes project.
-
-Our architecture diagram provides an (updated [#13063])
-overview of how...
-
-**Details:**
-- Language: Go
-- Stars: ⭐ 3975
-- Forks: 🔱 2802
-- Topics: `k8s-sig-testing`
-- Subcategory: CI/CD Testing Infrastructure
-- 🤖 AI Reasoning: *The repository provides tools and configurations for testing and automation within the Kubernetes project, specifically mentioning CI job management and test result dashboards like Testgrid. This makes "Testing & QA" the primary category, with a subcategory highlighting its role in CI/CD infrastructure.*
+- Stars: ⭐ 29800
+- Forks: 🔱 2811
+- Topics: `containers`, `devsecops`, `docker`, `go`, `golang`, `hacktoberfest`, `iac`, `infrastructure-as-code`, `kubernetes`, `misconfiguration`, `security`, `security-tools`, `vulnerability`, `vulnerability-detection`, `vulnerability-scanners`
+- Subcategory: Vulnerability Scanning
+- 🤖 AI Reasoning: *Trivy is explicitly described as a "comprehensive and versatile security scanner" that finds vulnerabilities, misconfigurations, and secrets across various platforms. The topics `security`, `security-tools`, `vulnerability-detection`, and `devsecops` further reinforce its primary function.*
+- Homepage: [https://trivy.dev](https://trivy.dev)
 
 ---
 
 ## Web Development
 
-### [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
+### [zauberzeug/nicegui](https://github.com/zauberzeug/nicegui)
 
-freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
+Create web-based user interfaces with Python. The nice way.
 
-> [](https://www.freecodecamp.org/)
 
-[](https://www.firsttimersonly.com/)
-[](https://discord.gg/PRyKn3Vbay)
-[](https://insights.linuxfoundation.org/project/freecodecamp/repository/freecodecamp-freecodecamp)
+> 📄 NiceGUI NiceGUI is an easy-to-use, Python-based UI framework, which shows up in your web browser. You can create buttons, dialogs, Markdown, 3D scenes, plots and much more. It is great for micro web apps, dashboards, robotics projects, smart home sol...
 
-freeCodeCamp.org's open-source codebase and curriculum
+**Details:**
+- Language: Python
+- Stars: ⭐ 14598
+- Forks: 🔱 870
+- Topics: `frontend`, `gui`, `interaction`, `interface`, `interfaces`, `python`, `robotics`, `scripting`, `toolkit`, `webapp`, `website`
+- Subcategory: UI Frameworks
+- 🤖 AI Reasoning: *NiceGUI is described as a "Python-based UI framework" for "web-based user interfaces," "micro web apps," and "dashboards," indicating its primary use in developing web frontends.*
+- Homepage: [https://nicegui.io](https://nicegui.io)
 
-freeCodeCamp.org is a friendly communi...
+### [junaid33/opensource.builders](https://github.com/junaid33/opensource.builders)
+
+Find and build open-source alternatives
+
+
+> 📄 This is a Next.js project bootstrapped with . [](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjunaid33%2Fopensource.builders%2F&stores=[{"type"%3A"postgres"}]) [](https://railway.com/deploy/TK5wC1?referralCode=I_tWSs) Gettin...
 
 **Details:**
 - Language: TypeScript
-- Stars: ⭐ 431984
-- Forks: 🔱 42380
-- Topics: `careers`, `certification`, `community`, `curriculum`, `d3`, `education`, `freecodecamp`, `javascript`, `learn-to-code`, `math`, `nodejs`, `nonprofits`, `programming`, `react`, `teachers`
-- Subcategory: Fullstack Curriculum
-- 🤖 AI Reasoning: *The README and description clearly state this is an open-source codebase and curriculum to learn coding, specifically full-stack web development and machine learning. The topics also include javascript, nodejs, and react which are web development technologies.*
-- Homepage: [https://contribute.freecodecamp.org](https://contribute.freecodecamp.org)
+- Stars: ⭐ 1279
+- Forks: 🔱 182
+- Subcategory: Fullstack Framework
+- 🤖 AI Reasoning: *The README indicates this is a Next.js project, which is a full-stack web framework used for building web applications. The description "Find and build open-source alternatives" further supports its use as a web application.*
+- Homepage: [https://opensource.builders](https://opensource.builders)
 
 ---
 
@@ -526,9 +396,9 @@ freeCodeCamp.org is a friendly communi...
 ## 📊 Statistics
 
 - **Most starred category:** AI & Machine Learning
-- **Total stars across all repos:** 1,315,189
-- **Languages represented:** 9
-- **Repos with READMEs:** 20 / 20
+- **Total stars across all repos:** 384,444
+- **Languages represented:** 6
+- **Repos with READMEs:** 19 / 20
 
 ---
 
