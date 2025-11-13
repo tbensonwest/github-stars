@@ -4,137 +4,93 @@
 
 **Last Updated:** 2025-11-13  
 **Total Repositories:** 20  
-**Categories:** 9  
-**READMEs Analysed:** 19 (95%)
+**Categories:** 12  
+**READMEs Analysed:** 16 (80%)
 
 ## Table of Contents
 
-- [AI & Machine Learning](#ai--machine-learning) (7)
+- [AI & Machine Learning](#ai--machine-learning) (4)
 - [Automation & Scripting](#automation--scripting) (1)
-- [Cloud & Infrastructure](#cloud--infrastructure) (4)
-- [Consolidated Analysis](#consolidated-analysis) (1)
+- [Cloud & Infrastructure](#cloud--infrastructure) (1)
 - [Databases & Storage](#databases--storage) (1)
-- [Developer Tools](#developer-tools) (2)
+- [DevOps & CI/CD](#devops--cicd) (1)
+- [Developer Tools](#developer-tools) (1)
 - [Monitoring & Observability](#monitoring--observability) (1)
+- [Other](#other) (1)
 - [Security & Compliance](#security--compliance) (1)
-- [Web Development](#web-development) (2)
+- [Testing & QA](#testing--qa) (1)
+- [Uncategorised](#uncategorised) (4)
+- [Web Development](#web-development) (3)
 
 
 ---
 
 ## AI & Machine Learning
 
-### [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb)
+### [ollama/ollama](https://github.com/ollama/ollama)
 
-Federated query engine for AI - The only MCP Server you'll ever need
-
-
-> 📄 Website · Docs · Contact us for a Demo · Community Slack MindsDB enables humans, AI, agents, and applications to get highly accurate answers across large scale data sources. And yes, you can customize it to your heart's content.
+Get up and running with OpenAI gpt-oss, DeepSeek-R1, Gemma 3 and other models.
 
 **Details:**
-- Language: Python
-- Stars: ⭐ 37289
-- Forks: 🔱 5980
-- Topics: `agents`, `agi`, `ai`, `analytics`, `artificial-inteligence`, `business-intelligence`, `databases`, `hacktoberfest`, `llms`, `mcp`, `rag`
-- Subcategory: AI Query Engines & Data Integration
-- 🤖 AI Reasoning: *MindsDB is primarily an AI query engine that integrates with various large-scale data sources for AI applications, including LLMs and agents, enabling accurate answers across diverse data.*
-- Homepage: [https://mindsdb.com](https://mindsdb.com)
+- Language: Go
+- Stars: ⭐ 155892
+- Forks: 🔱 13619
+- Topics: `deepseek`, `gemma`, `gemma3`, `gemma3n`, `go`, `golang`, `gpt-oss`, `llama`, `llama2`, `llama3`, `llava`, `llm`, `llms`, `mistral`, `ollama`, `phi4`, `qwen`
+- Subcategory: LLM Tooling
+- 🤖 AI Reasoning: *The repository is focused on running and managing Large Language Models (LLMs) like Gemma and Llama locally, as stated in both the description and README. The topics (llm, llama, gemma) and its core functionality place it squarely in the AI/ML space as a tool for developers working with these models.*
+- Homepage: [https://ollama.com](https://ollama.com)
 
-### [sgl-project/sglang](https://github.com/sgl-project/sglang)
+### [cline/cline](https://github.com/cline/cline)
 
-SGLang is a fast serving framework for large language models and vision language models.
-
-
-> 📄 [](https://pypi.org/project/sglang) [](https://github.com/sgl-project/sglang/tree/main/LICENSE) [](https://github.com/sgl-project/sglang/issues) [](https://github.com/sgl-project/sglang/issues) [](https://deepwiki.com/sgl-project/sglang) **Blog** **D...
-
-**Details:**
-- Language: Python
-- Stars: ⭐ 20118
-- Forks: 🔱 3369
-- Topics: `blackwell`, `cuda`, `deepseek`, `deepseek-r1`, `deepseek-v3`, `deepseek-v3-2`, `gpt-oss`, `inference`, `kimi`, `llama`, `llama3`, `llava`, `llm`, `llm-serving`, `moe`, `openai`, `pytorch`, `qwen3`, `transformer`, `vlm`
-- Subcategory: LLM Serving Framework
-- 🤖 AI Reasoning: *SGLang is explicitly described as a fast serving framework for large language models and vision language models, with topics like `llm-serving`, `inference`, `llama`, and `openai`. This places it squarely in the AI & Machine Learning category, with a specific subcategory for LLM serving frameworks.*
-- Homepage: [https://docs.sglang.ai/](https://docs.sglang.ai/)
-
-### [langfuse/langfuse](https://github.com/langfuse/langfuse)
-
-🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 
-
-
-> 📄 Langfuse Is Doubling Down On Open Source Langfuse Cloud · Self Host · Demo Docs · Report Bug · Feature Request · Changelog · Roadmap · Langfuse uses GitHub Discussions for Support and Feature Requests.
+Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.
 
 **Details:**
 - Language: TypeScript
-- Stars: ⭐ 18259
-- Forks: 🔱 1762
-- Topics: `analytics`, `autogen`, `evaluation`, `langchain`, `large-language-models`, `llama-index`, `llm`, `llm-evaluation`, `llm-observability`, `llmops`, `monitoring`, `observability`, `open-source`, `openai`, `playground`, `prompt-engineering`, `prompt-management`, `self-hosted`, `ycombinator`
-- Subcategory: LLM Observability & Engineering
-- 🤖 AI Reasoning: *The description and topics clearly indicate a focus on Large Language Models (LLMs), with specific mentions of "LLM Observability, metrics, evals, prompt management". The README reinforces the "Open source LLM engineering platform".*
-- Homepage: [https://langfuse.com/docs](https://langfuse.com/docs)
+- Stars: ⭐ 52354
+- Forks: 🔱 5205
+- Subcategory: AI Agent
+- 🤖 AI Reasoning: *Based on the analysis of all 5 repositories:
 
-### [toon-format/toon](https://github.com/toon-format/toon)
+1. **cline/cline**: Categorized as **AI & Machine Learning / AI Agent** because the README and description clearly define it as an 'Autonomous coding agent' and 'AI assistant' that operates within an IDE to perform software development tasks.
 
-🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK.
+2. **langflow-ai/langflow**: Categorized as **AI & Machine Learning / AI Tools**. The repository is a platform for building and deploying AI agents and workflows, with topics like 'generative-ai' and 'large-language-models'.
 
+3. **dart-lang/sdk**: Categorized as **Developer Tools / SDK**. This repository contains the official Software Development Kit (SDK) for the Dart programming language, making it a foundational tool for developers.
 
-> 📄 Token-Oriented Object Notation (TOON) [](https://github.com/toon-format/toon/actions) [](https://www.npmjs.com/package/@toon-format/toon) [](https://github.com/toon-format/spec) [](https://www.npmjs.com/package/@toon-format/toon) [](./LICENSE) **Toke...
+4. **google-gemini/gemini-cli**: Categorized as **AI & Machine Learning / AI Tools**. This is a command-line interface tool that acts as an AI agent to bring the Gemini large language model into the terminal.
 
-**Details:**
-- Language: TypeScript
-- Stars: ⭐ 14137
-- Forks: 🔱 551
-- Topics: `data-format`, `llm`, `serialization`, `tokenization`
-- Subcategory: LLM Tools/Data Formats
-- 🤖 AI Reasoning: *The repository provides a serialization format specifically designed for passing structured data to Large Language Models (LLMs), as explicitly stated in both the README summary and description, and supported by "llm" and "data-format" topics.*
-- Homepage: [https://toonformat.dev](https://toonformat.dev)
+5. **grafana/pyroscope**: Categorized as **Monitoring & Observability / Profiling**. The description and topics clearly label it a 'Continuous Profiling Platform' for debugging performance issues, a core function of observability.*
+- Homepage: [https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev)
 
-### [agent0ai/agent-zero](https://github.com/agent0ai/agent-zero)
+### [SuperClaude-Org/SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework)
 
-Agent Zero AI framework
+A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.
 
 
-> 📄 [](https://agent-zero.ai) [](https://github.com/sponsors/agent0ai) [](https://x.com/Agent0ai) [](https://discord.gg/B8KZKNsPpj) [](https://www.youtube.com/@AgentZeroFW) [](https://www.linkedin.com/in/jan-tomasek/) [](https://warpcast.com/agent-zero)...
+> 📄 🚀 SuperClaude Framework **Transform Claude Code into a Structured Development Platform** Quick Start • Support • Features • Docs • Contributing 📊 **Framework Statistics** **Commands** **Agents** **Modes** **MCP Servers** :------------: :----------:...
 
 **Details:**
 - Language: Python
-- Stars: ⭐ 12250
-- Forks: 🔱 2401
-- Topics: `agent`, `ai`, `assistant`, `autonomous`, `linux`, `zero`
-- Subcategory: AI Frameworks
-- 🤖 AI Reasoning: *The description and topics clearly state it is an "AI framework" for "agents" and "autonomous" systems. The README summary also points to documentation for development and usage of this framework.*
-- Homepage: [https://agent-zero.ai](https://agent-zero.ai)
+- Stars: ⭐ 17953
+- Forks: 🔱 1583
+- Subcategory: LLM Tools
+- 🤖 AI Reasoning: *The repository provides a framework to enhance and structure development using the Claude AI model. The README explicitly mentions 'Specialized AI Behavioral Integrations' and transforming 'Claude Code into a Structured Development Platform'. This clearly places it in the AI & Machine Learning category as a tool for working with LLMs.*
+- Homepage: [https://superclaude.netlify.app/](https://superclaude.netlify.app/)
 
-### [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)
+### [UKGovernmentBEIS/inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai)
 
-Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI
-
-
-> 📄 Generative AI on Google Cloud > **Gemini 2.5 Pro and Gemini 2.5 Flash have been released!** > > Here are the latest notebooks and demos using the new models: > > - Intro to Gemini 2.5 Pro > - Intro to Gemini 2.5 Flash This repository contains noteboo...
-
-**Details:**
-- Language: Jupyter Notebook
-- Stars: ⭐ 12032
-- Forks: 🔱 3505
-- Topics: `agents`, `gcp`, `gemini`, `gemini-api`, `gen-ai`, `generative-ai`, `google`, `google-cloud`, `google-gemini`, `langchain`, `large-language-models`, `llm`, `vertex-ai`, `vertex-ai-gemini-api`, `vertexai`
-- Subcategory: LLMs & Generative AI
-- 🤖 AI Reasoning: *The repository provides sample code and notebooks specifically for Generative AI on Google Cloud, focusing on Gemini and Vertex AI. The README highlights notebooks and demos using new Gemini models, aligning perfectly with LLMs and generative AI tools on a cloud platform.*
-- Homepage: [https://cloud.google.com/vertex-ai/docs/generative-ai/learn/overview](https://cloud.google.com/vertex-ai/docs/generative-ai/learn/overview)
-
-### [redis/redis-vl-python](https://github.com/redis/redis-vl-python)
-
-Redis Vector Library (RedisVL) -- the AI-native Python client for Redis.
+Inspect: A framework for large language model evaluations
 
 
-> 📄 Redis Vector Library The AI-native Redis Python client [](https://opensource.org/licenses/MIT) [](https://pypi.org/project/redisvl/) [](https://github.com/redis/redis-vl-python/stargazers) [](https://github.com/psf/black) **Documentation** • **Recipe...
+> 📄 [](https://aisi.gov.uk/) Welcome to Inspect, a framework for large language model evaluations created by the UK AI Security Institute. Inspect provides many built-in components, including facilities for prompt engineering, tool usage, multi-turn dial...
 
 **Details:**
 - Language: Python
-- Stars: ⭐ 341
-- Forks: 🔱 61
-- Topics: `embedding`, `large-language-models`, `llm`, `llmcache`, `openai`, `python`, `redis`, `retrieval-augmented-generation`, `semantic-cache`, `vector-database`, `vector-search`
-- Subcategory: AI Tools
-- 🤖 AI Reasoning: *The repository provides a Python client library for building AI applications with Redis, focusing on vector search, LLMs, and embeddings. This clearly falls under AI & Machine Learning, and more specifically, AI Tools as it's a library to facilitate AI development.*
-- Homepage: [https://docs.redisvl.com](https://docs.redisvl.com)
+- Stars: ⭐ 1490
+- Forks: 🔱 336
+- Subcategory: LLM Evaluation
+- 🤖 AI Reasoning: *The README explicitly states it's a "framework for large language model evaluations". This falls directly under the AI & Machine Learning category, and "LLM Evaluation" is the most specific subcategory describing its function.*
+- Homepage: [https://inspect.aisi.org.uk/](https://inspect.aisi.org.uk/)
 
 ---
 
@@ -152,44 +108,12 @@ Local support for Tuya devices in Home Assistant
 - Stars: ⭐ 2294
 - Forks: 🔱 855
 - Topics: `climate`, `dehumidifiers`, `fans`, `heaters`, `home-assistant`, `humidifiers`, `lights`, `pool-heaters`, `switches`, `tuya`
-- Subcategory: Home Automation / Smart Home Integration
-- 🤖 AI Reasoning: *The README and description clearly indicate that this is a Home Assistant integration for Tuya devices, enabling local control without the cloud. This aligns with home automation, which is a specific type of automation and scripting for smart home devices.*
+- Subcategory: Home Automation
+- 🤖 AI Reasoning: *The repository provides a Home Assistant integration to control Tuya smart home devices locally. Its primary purpose is to automate home-related tasks, which fits squarely into the "Automation & Scripting" category, with a specific focus on "Home Automation".*
 
 ---
 
 ## Cloud & Infrastructure
-
-### [localstack/localstack](https://github.com/localstack/localstack)
-
-💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline
-
-
-> 📄 :zap: We are thrilled to announce the release of LocalStack 4.9 :zap: LocalStack is a cloud software development framework to develop and test your AWS applications locally. Overview • Install • Quickstart • Run • Usage • Releases • Contributing 📖 D...
-
-**Details:**
-- Language: Python
-- Stars: ⭐ 62952
-- Forks: 🔱 4407
-- Topics: `aws`, `cloud`, `continuous-integration`, `developer-tools`, `localstack`, `python`, `testing`
-- Subcategory: AWS Cloud Emulation
-- 🤖 AI Reasoning: *LocalStack provides a fully functional local AWS cloud stack for developing and testing cloud and serverless applications offline. Its core purpose is to emulate AWS services, directly aligning with cloud infrastructure.*
-- Homepage: [https://localstack.cloud](https://localstack.cloud)
-
-### [aws/aws-cdk](https://github.com/aws/aws-cdk)
-
-The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code
-
-
-> 📄 AWS Cloud Development Kit (AWS CDK) [](https://gitpod.io/#https://github.com/aws/aws-cdk) [](https://badge.fury.io/js/aws-cdk) [](https://badge.fury.io/py/aws-cdk-lib) [](https://badge.fury.io/nu/Amazon.CDK.Lib) [](https://maven-badges.herokuapp.com/...
-
-**Details:**
-- Language: TypeScript
-- Stars: ⭐ 12524
-- Forks: 🔱 4322
-- Topics: `aws`, `cloud-infrastructure`, `hacktoberfest`, `infrastructure-as-code`, `typescript`
-- Subcategory: Infrastructure as Code (IaC)
-- 🤖 AI Reasoning: *The repository explicitly describes itself as the "AWS Cloud Development Kit" for "defining cloud infrastructure in code", supported by topics like "aws", "cloud-infrastructure", and "infrastructure-as-code".*
-- Homepage: [https://aws.amazon.com/cdk](https://aws.amazon.com/cdk)
 
 ### [boto/boto3](https://github.com/boto/boto3)
 
@@ -203,67 +127,9 @@ Boto3, an AWS SDK for Python
 - Stars: ⭐ 9591
 - Forks: 🔱 1933
 - Topics: `aws`, `aws-sdk`, `cloud`, `cloud-management`, `python`
-- Subcategory: AWS SDK / Cloud Management
-- 🤖 AI Reasoning: *The README and description clearly state that Boto3 is the AWS SDK for Python, enabling interaction with AWS services like S3 and EC2. This directly aligns with managing and interacting with cloud infrastructure.*
+- Subcategory: AWS
+- 🤖 AI Reasoning: *The repository is explicitly described as 'Boto3 - The AWS SDK for Python' in its README, description, and topics. Its core function is to enable Python developers to write software that controls and manages Amazon Web Services (AWS) like S3 and EC2. The topics 'aws', 'aws-sdk', 'cloud', and 'cloud-management' directly align with the 'Cloud & Infrastructure' category. 'AWS' is the most fitting subcategory as it specifies the exact cloud ecosystem the SDK is built for.*
 - Homepage: [https://aws.amazon.com/sdk-for-python/](https://aws.amazon.com/sdk-for-python/)
-
-### [openstack/openstack](https://github.com/openstack/openstack)
-
-Repository tracking all OpenStack repositories as submodules. Mirror of code maintained at opendev.org.
-
-
-> 📄 OpenStack ========= OpenStack is a collection of interoperable components that can be deployed to provide computing, networking and storage resources. Those infrastructure resources can then be accessed by end users through programmable APIs.
-
-**Details:**
-- Language: Python
-- Stars: ⭐ 5735
-- Forks: 🔱 1626
-- Subcategory: Infrastructure as a Service (IaaS)
-- 🤖 AI Reasoning: *The README states OpenStack provides computing, networking, and storage resources, indicating its role in managing infrastructure. This aligns with Infrastructure as a Service.*
-- Homepage: [https://opendev.org/openstack/openstack](https://opendev.org/openstack/openstack)
-
----
-
-## Consolidated Analysis
-
-### [Multiple Repositories](undefined)
-
-**Details:**
-- Language: N/A
-- Stars: ⭐ 0
-- Subcategory: Repository Categorization
-- 🤖 AI Reasoning: *[
-  {
-    "full_name": "odoo/odoo",
-    "category": "Web Development",
-    "subcategory": "Business Application Suite",
-    "reasoning": "Odoo is a comprehensive suite of web-based open-source business applications, including ERP, CRM, and accounting. Its primary function is providing full-stack business solutions accessed via a web interface, aligning with web development that creates complete applications."
-  },
-  {
-    "full_name": "freeCodeCamp/freeCodeCamp",
-    "category": "Other",
-    "subcategory": "Education Platform",
-    "reasoning": "freeCodeCamp provides an open-source codebase and curriculum for learning programming, mathematics, and computer science. Its core purpose is to offer an educational platform for users to learn coding for free, which does not fit standard development or infrastructure categories."
-  },
-  {
-    "full_name": "open-webui/open-webui",
-    "category": "AI & Machine Learning",
-    "subcategory": "LLM Interface / AI Platform",
-    "reasoning": "Open WebUI is a self-hosted, user-friendly AI platform designed to interact with Large Language Models (LLMs) from various runners like Ollama and OpenAI-compatible APIs, including RAG capabilities. This clearly positions it within the AI and Machine Learning domain as an AI tool/interface."
-  },
-  {
-    "full_name": "wled/WLED",
-    "category": "Other",
-    "subcategory": "Embedded Systems / IoT Device Control",
-    "reasoning": "WLED is an ESP32 and ESP8266 webserver implementation used to control digital RGB LEDs. It's an embedded software solution designed for specific hardware (microcontrollers) to manage and automate lighting, which falls under embedded systems or IoT device control."
-  },
-  {
-    "full_name": "koush/scrypted",
-    "category": "Automation & Scripting",
-    "subcategory": "Home Video Automation",
-    "reasoning": "Scrypted is a high-performance home video integration and automation platform that includes NVR functionality and smart detections, providing instant streaming to smart home systems like HomeKit and Google Home. Its focus on automating video workflows and integrations aligns with the Automation & Scripting category."
-  }
-]*
 
 ---
 
@@ -275,12 +141,32 @@ Repository tracking all OpenStack repositories as submodules. Mirror of code mai
 
 **Details:**
 - Language: Go
-- Stars: ⭐ 53500
+- Stars: ⭐ 53499
 - Forks: 🔱 4766
 - Topics: `azure-blob`, `azure-blob-storage`, `azure-files`, `backblaze-b2`, `cloud-storage`, `dropbox`, `encryption`, `ftp`, `fuse-filesystem`, `go`, `golang`, `google-cloud-storage`, `google-drive`, `onedrive`, `openstack-swift`, `rclone`, `s3`, `sftp`, `sync`, `webdav`
 - Subcategory: Storage Solutions
-- 🤖 AI Reasoning: *Rclone is described as "rsync for cloud storage" and its topics include numerous cloud storage providers like Google Drive, S3, Dropbox, etc., along with "cloud-storage" and "sync". The README confirms its purpose related to managing and syncing data across various storage solutions.*
+- 🤖 AI Reasoning: *The repository is described as '"rsync for cloud storage"' and its primary function is to manage and synchronize data across numerous cloud and on-premise storage services. The topics listed, such as `cloud-storage`, `s3`, `google-drive`, and `azure-blob-storage`, confirm its focus on data storage solutions.*
 - Homepage: [https://rclone.org](https://rclone.org)
+
+---
+
+## DevOps & CI/CD
+
+### [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins)
+
+Jenkins automation server
+
+
+> 📄 About [](https://www.jenkins.io/changelog) [](https://www.jenkins.io/changelog-stable) [](https://hub.docker.com/r/jenkins/jenkins/) [](https://bestpractices.coreinfrastructure.org/projects/3538) [](https://maven.apache.org/guides/mini/guide-reproduc...
+
+**Details:**
+- Language: Java
+- Stars: ⭐ 24654
+- Forks: 🔱 9184
+- Topics: `cicd`, `continuous-delivery`, `continuous-deployment`, `continuous-integration`, `devops`, `groovy`, `hacktoberfest`, `java`, `jenkins`, `pipelines-as-code`
+- Subcategory: Continuous Integration
+- 🤖 AI Reasoning: *The repository's description, topics (cicd, continuous-integration, devops), and README clearly identify it as 'the leading open-source automation server'. This directly aligns with the DevOps & CI/CD category, with a specific focus on Continuous Integration.*
+- Homepage: [https://www.jenkins.io](https://www.jenkins.io)
 
 ---
 
@@ -298,44 +184,48 @@ A cat(1) clone with wings.
 - Stars: ⭐ 55809
 - Forks: 🔱 1411
 - Topics: `cli`, `command-line`, `git`, `hacktoberfest`, `rust`, `syntax-highlighting`, `terminal`, `tool`
-- Subcategory: CLI Utilities
-- 🤖 AI Reasoning: *The README and description clearly state that bat is a "cat(1) clone with syntax highlighting and Git integration" and a "command-line tool". This indicates its primary purpose as a utility for developers interacting with the terminal, making "Developer Tools" the most appropriate category and "CLI Utilities" a precise subcategory.*
-
-### [dart-lang/sdk](https://github.com/dart-lang/sdk)
-
-The Dart SDK, including the VM, JS and Wasm compilers, analysis, core libraries, and more.
-
-
-> 📄 Dart An approachable, portable, and productive language for high-quality apps on any platform Dart is: **Approachable**: Develop with a strongly typed programming language that is consistent, concise, and offers modern language features like null saf...
-
-**Details:**
-- Language: Dart
-- Stars: ⭐ 10917
-- Forks: 🔱 1708
-- Topics: `dart`, `language`, `programming-language`, `sdk`
-- Subcategory: Programming Language SDK
-- 🤖 AI Reasoning: *This repository contains the Dart SDK, which includes the VM, compilers, and core libraries for the Dart programming language. The README describes it as an "approachable, portable, and productive language".*
-- Homepage: [https://dart.dev](https://dart.dev)
+- Subcategory: CLI Tool
+- 🤖 AI Reasoning: *The repository provides a command-line tool ('A cat(1) clone') intended for developers. The topics 'cli', 'command-line', and 'tool' and the README description of syntax highlighting and Git integration confirm its purpose as a developer utility.*
 
 ---
 
 ## Monitoring & Observability
 
-### [grafana/pyroscope](https://github.com/grafana/pyroscope)
+### [grafana/grafana](https://github.com/grafana/grafana)
 
-Continuous Profiling Platform. Debug performance issues down to a single line of code
+The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. 
 
 
-> 📄 [](https://github.com/grafana/pyroscope/actions/workflows/test.yml) [](https://github.com/grafana/pyroscope/actions?query=workflow%3AJS%20Tests) [](https://goreportcard.com/report/github.com/grafana/pyroscope) [](LICENSE) [](https://app.fossa.com/pro...
+> 📄 The open-source platform for monitoring and observability [](LICENSE) [](https://goreportcard.com/report/github.com/grafana/grafana) Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored.
 
 **Details:**
-- Language: Go
-- Stars: ⭐ 11019
-- Forks: 🔱 706
-- Topics: `continuous-profiling`, `developer-tools`, `devops`, `find-bottlenecks`, `golang`, `hacktoberfest`, `linux`, `monitoring`, `observability`, `performance`, `profiling`, `pyroscope`, `python`, `ruby`
-- Subcategory: Continuous Profiling
-- 🤖 AI Reasoning: *The description and topics explicitly mention "Continuous Profiling Platform", "monitoring", "observability", and "performance", which directly aligns with the Monitoring & Observability category and Continuous Profiling subcategory.*
-- Homepage: [https://grafana.com/oss/pyroscope/](https://grafana.com/oss/pyroscope/)
+- Language: TypeScript
+- Stars: ⭐ 70805
+- Forks: 🔱 13173
+- Topics: `alerting`, `analytics`, `business-intelligence`, `dashboard`, `data-visualization`, `elasticsearch`, `go`, `grafana`, `hacktoberfest`, `influxdb`, `metrics`, `monitoring`, `mysql`, `postgres`, `prometheus`
+- Subcategory: Data Visualization
+- 🤖 AI Reasoning: *The repository is explicitly described as 'The open and composable observability and data visualization platform' in its description and 'the open-source platform for monitoring and observability' in its README. Key topics like 'monitoring', 'observability', 'data-visualization', 'metrics', and 'alerting' directly align with this category. Its core function is to allow users to query, visualize, and alert on metrics, logs, and traces.*
+- Homepage: [https://grafana.com](https://grafana.com)
+
+---
+
+## Other
+
+### [Viren070/AIOStreams](https://github.com/Viren070/AIOStreams)
+
+One addon to rule them all. AIOStreams consolidates multiple Stremio addons and debrid services into a single, highly customisable super-addon. 
+
+
+> 📄 AIOStreams One addon to rule them all. AIOStreams consolidates multiple Stremio addons and debrid services - including its own suite of built-in addons - into a single, highly customisable super-addon.
+
+**Details:**
+- Language: TypeScript
+- Stars: ⭐ 972
+- Forks: 🔱 630
+- Topics: `stremio`, `stremio-addon`, `stremio-addons`
+- Subcategory: Media Addon
+- 🤖 AI Reasoning: *The repository is an addon for the Stremio media center, consolidating other addons and services. This specific user-facing tool for a media application does not fit into the standard development or infrastructure categories.*
+- Homepage: [https://aiostreams.elfhosted.com](https://aiostreams.elfhosted.com)
 
 ---
 
@@ -350,13 +240,75 @@ Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes
 - Stars: ⭐ 29800
 - Forks: 🔱 2811
 - Topics: `containers`, `devsecops`, `docker`, `go`, `golang`, `hacktoberfest`, `iac`, `infrastructure-as-code`, `kubernetes`, `misconfiguration`, `security`, `security-tools`, `vulnerability`, `vulnerability-detection`, `vulnerability-scanners`
-- Subcategory: Vulnerability Scanning
-- 🤖 AI Reasoning: *Trivy is explicitly described as a "comprehensive and versatile security scanner" that finds vulnerabilities, misconfigurations, and secrets across various platforms. The topics `security`, `security-tools`, `vulnerability-detection`, and `devsecops` further reinforce its primary function.*
+- Subcategory: vulnerability scanning
+- 🤖 AI Reasoning: *The repository is explicitly described as a "comprehensive and versatile security scanner." The description and topics like "vulnerability-detection," "security-tools," and "devsecops" confirm its primary purpose is to find vulnerabilities and misconfigurations, making "Security & Compliance" the most accurate category and "vulnerability scanning" the specific subcategory.*
 - Homepage: [https://trivy.dev](https://trivy.dev)
 
 ---
 
+## Testing & QA
+
+### [jepsen-io/jepsen](https://github.com/jepsen-io/jepsen)
+
+A framework for distributed systems verification, with fault injection
+
+
+> 📄 Jepsen Breaking distributed systems so you don't have to. A test is a Clojure program which uses the Jepsen library to set up a distributed system, run a bunch of operations against that system, and verify that the history of those operations makes s...
+
+**Details:**
+- Language: Clojure
+- Stars: ⭐ 7203
+- Forks: 🔱 737
+- Subcategory: Distributed Systems Testing
+- 🤖 AI Reasoning: *The README clearly states that Jepsen is a library to "set up a distributed system, run a bunch of operations against that system, and verify that the history of those operations makes sense." This, along with the description mentioning "distributed systems verification, with fault injection," firmly places it in the Testing & QA category. The specific focus on distributed systems makes "Distributed Systems Testing" an accurate subcategory.*
+
+---
+
+## Uncategorised
+
+### [undefined](undefined)
+
+**Details:**
+- Language: N/A
+- Stars: ⭐ 0
+
+### [undefined](undefined)
+
+**Details:**
+- Language: N/A
+- Stars: ⭐ 0
+
+### [undefined](undefined)
+
+**Details:**
+- Language: N/A
+- Stars: ⭐ 0
+
+### [undefined](undefined)
+
+**Details:**
+- Language: N/A
+- Stars: ⭐ 0
+
+---
+
 ## Web Development
+
+### [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
+
+freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
+
+
+> 📄 [](https://www.freecodecamp.org/) [](https://www.firsttimersonly.com/) [](https://discord.gg/PRyKn3Vbay) [](https://insights.linuxfoundation.org/project/freecodecamp/repository/freecodecamp-freecodecamp) freeCodeCamp.org's open-source codebase and cu...
+
+**Details:**
+- Language: TypeScript
+- Stars: ⭐ 431985
+- Forks: 🔱 42380
+- Topics: `careers`, `certification`, `community`, `curriculum`, `d3`, `education`, `freecodecamp`, `javascript`, `learn-to-code`, `math`, `nodejs`, `nonprofits`, `programming`, `react`, `teachers`
+- Subcategory: Education
+- 🤖 AI Reasoning: *The repository is the open-source codebase for the freeCodeCamp.org learning platform. Although it is a full-stack web application built with TypeScript, React, and Node.js, its primary purpose, as stated in the description, README, and topics (education, curriculum, learn-to-code), is to provide a free curriculum and community for learning programming. Therefore, while 'Web Development' is the correct technical category, 'Education' is the most accurate subcategory to describe its domain.*
+- Homepage: [https://contribute.freecodecamp.org](https://contribute.freecodecamp.org)
 
 ### [zauberzeug/nicegui](https://github.com/zauberzeug/nicegui)
 
@@ -370,8 +322,8 @@ Create web-based user interfaces with Python. The nice way.
 - Stars: ⭐ 14598
 - Forks: 🔱 870
 - Topics: `frontend`, `gui`, `interaction`, `interface`, `interfaces`, `python`, `robotics`, `scripting`, `toolkit`, `webapp`, `website`
-- Subcategory: UI Frameworks
-- 🤖 AI Reasoning: *NiceGUI is described as a "Python-based UI framework" for "web-based user interfaces," "micro web apps," and "dashboards," indicating its primary use in developing web frontends.*
+- Subcategory: Web Frameworks
+- 🤖 AI Reasoning: *The repository provides a Python-based framework for creating web-based user interfaces and applications. The README and topics like 'frontend', 'gui', and 'webapp' confirm its purpose as a tool for web development.*
 - Homepage: [https://nicegui.io](https://nicegui.io)
 
 ### [junaid33/opensource.builders](https://github.com/junaid33/opensource.builders)
@@ -385,8 +337,8 @@ Find and build open-source alternatives
 - Language: TypeScript
 - Stars: ⭐ 1279
 - Forks: 🔱 182
-- Subcategory: Fullstack Framework
-- 🤖 AI Reasoning: *The README indicates this is a Next.js project, which is a full-stack web framework used for building web applications. The description "Find and build open-source alternatives" further supports its use as a web application.*
+- Subcategory: Web Application
+- 🤖 AI Reasoning: *The repository is a Next.js project, which is a popular framework for building full-stack web applications. The description 'Find and build open-source alternatives' clearly indicates its purpose is a web-based platform. The language (TypeScript) and the mention of a development server in the README further support its classification as a Web Development project.*
 - Homepage: [https://opensource.builders](https://opensource.builders)
 
 ---
@@ -395,10 +347,10 @@ Find and build open-source alternatives
 
 ## 📊 Statistics
 
-- **Most starred category:** AI & Machine Learning
-- **Total stars across all repos:** 384,444
+- **Most starred category:** Web Development
+- **Total stars across all repos:** 930,178
 - **Languages represented:** 6
-- **Repos with READMEs:** 19 / 20
+- **Repos with READMEs:** 16 / 20
 
 ---
 
